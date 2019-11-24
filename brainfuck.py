@@ -69,7 +69,6 @@ def execute_brainfuck(code: str) -> str:
 if __name__ == "__main__":
     import sys 
 
-
     if len(sys.argv) != 2:
         print(f"{sys.argv[0]} *.bf")
 
